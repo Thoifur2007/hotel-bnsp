@@ -57,3 +57,7 @@ Form ini digunakan untuk mencatat data pelanggan yang ingin menginap di hotel.
 ```bash
 git clone https://github.com/Thoifur2007/hotel-bnsp.git
 cd hotel-bnsp
+
+## Dibuat oleh:
+
+- **[@Thoifur2007](https://github.com/Thoifur2007)** - Fullstack Developer 
