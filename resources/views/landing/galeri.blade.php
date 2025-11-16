@@ -19,9 +19,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500&h=300&fit=crop" 
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-danger px-3 py-2">Kamar</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Kamar Deluxe</h5>
@@ -37,9 +34,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500&h=300&fit=crop"
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-success px-3 py-2">Resort</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Area Resort</h5>
@@ -55,9 +49,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=500&h=300&fit=crop"
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-info px-3 py-2">Pool</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Kolam Renang Infinity</h5>
@@ -73,9 +64,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=300&fit=crop"
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-warning px-3 py-2">Restoran</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Restoran Premium</h5>
@@ -91,9 +79,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&h=300&fit=crop"
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-primary px-3 py-2">Lobby</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Lobby Mewah</h5>
@@ -109,9 +94,6 @@
         <div style="position: relative; overflow: hidden; height: 300px;">
           <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500&h=300&fit=crop"
             class="w-100 h-100" style="object-fit: cover; transition: .3s;">
-          <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-secondary px-3 py-2">Spa</span>
-          </div>
         </div>
         <div class="card-body p-4">
           <h5 class="card-title fw-bold mb-2">Spa & Wellness</h5>

@@ -4,7 +4,7 @@
 <div class="container py-5">
   <!-- Header Section -->
   <div class="text-center mb-5">
-    <h2 class="display-4 fw-bold" style="color: #667eea;">
+    <h2 class="display-4 fw-bold" style="color: #e63946;">
       Tentang Hotel Serenity
     </h2>
     <p class="lead text-muted">Pengalaman Menginap Terbaik Sejak 2010</p>
@@ -13,7 +13,7 @@
   <!-- Hero Image Section -->
   <div class="card border-0 shadow-lg mb-5" style="border-radius: 20px; overflow: hidden;">
     <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&h=400&fit=crop" class="card-img-top" style="height: 400px; object-fit: cover;">
-    <div class="card-img-overlay d-flex align-items-center justify-content-center" style="background: rgba(102, 126, 234, 0.7);">
+    <div class="card-img-overlay d-flex align-items-center justify-content-center" style="background: rgba(208, 14, 14, 0.552);">
       <div class="text-center text-white">
         <h1 class="display-3 fw-bold mb-3">Hotel Serenity</h1>
         <p class="fs-4">Where Comfort Meets Luxury</p>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="col-lg-6">
-      <h3 class="fw-bold mb-4" style="color: #667eea;">Kisah Kami</h3>
+      <h3 class="fw-bold mb-4" style="color: #e63946;">Kisah Kami</h3>
       <p class="text-muted mb-3" style="text-align: justify; line-height: 1.8;">
         Hotel Serenity berdiri sejak tahun 2010 dengan visi untuk menyediakan pengalaman menginap terbaik di kelasnya. Berlokasi strategis di pusat kota, kami menawarkan kombinasi sempurna antara kenyamanan modern dan pelayanan tradisional yang hangat.
       </p>
@@ -43,15 +43,15 @@
 
       <div class="d-flex gap-3">
         <div class="text-center">
-          <div class="fw-bold" style="font-size: 2rem; color: #667eea;">14+</div>
+          <div class="fw-bold" style="font-size: 2rem; color: #e63946;">14+</div>
           <small class="text-muted">Tahun Berpengalaman</small>
         </div>
         <div class="text-center">
-          <div class="fw-bold" style="font-size: 2rem; color: #667eea;">50K+</div>
+          <div class="fw-bold" style="font-size: 2rem; color: #e63946;">50K+</div>
           <small class="text-muted">Tamu Puas</small>
         </div>
         <div class="text-center">
-          <div class="fw-bold" style="font-size: 2rem; color: #667eea;">150+</div>
+          <div class="fw-bold" style="font-size: 2rem; color: #e63946;">150+</div>
           <small class="text-muted">Kamar Tersedia</small>
         </div>
       </div>
@@ -64,11 +64,11 @@
       <div class="card border-0 shadow-lg h-100" style="border-radius: 20px;">
         <div class="card-body p-5">
           <div class="text-center mb-4">
-            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #f64c98 0%, #e63946 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
               Visi
             </div>
           </div>
-          <h4 class="text-center fw-bold mb-4" style="color: #667eea;">Visi Kami</h4>
+          <h4 class="text-center fw-bold mb-4" style="color: #e63946;">Visi Kami</h4>
           <p class="text-muted text-center" style="line-height: 1.8;">
             Menjadi hotel pilihan utama yang memberikan pengalaman menginap terbaik dengan standar pelayanan internasional dan sentuhan keramahan Indonesia.
           </p>
@@ -80,11 +80,11 @@
       <div class="card border-0 shadow-lg h-100" style="border-radius: 20px;">
         <div class="card-body p-5">
           <div class="text-center mb-4">
-            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #f64c98 0%, #e63946 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
               Misi
             </div>
           </div>
-          <h4 class="text-center fw-bold mb-4" style="color: #f5576c;">Misi Kami</h4>
+          <h4 class="text-center fw-bold mb-4" style="color: #e63946;">Misi Kami</h4>
           <ul class="list-unstyled text-muted">
             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Memberikan pelayanan terbaik kepada setiap tamu</li>
             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Menjaga kebersihan dan kenyamanan kamar</li>
@@ -98,7 +98,7 @@
 
   <!-- Tipe Kamar -->
   <div class="mb-5">
-    <h3 class="text-center fw-bold mb-4" style="color: #667eea;">Tipe Kamar Kami</h3>
+    <h3 class="text-center fw-bold mb-4" style="color: #e63946;">Tipe Kamar Kami</h3>
     <div class="row g-4">
 
       <!-- Standar Room -->
@@ -113,7 +113,7 @@
             <p class="text-muted mb-3">Kamar nyaman dengan fasilitas standar untuk menginap yang menyenangkan</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="text-muted">Mulai dari</span>
-              <div class="fw-bold" style="color: #667eea; font-size: 1.3rem;">Rp 500.000</div>
+              <div class="fw-bold" style="color: #e63946; font-size: 1.3rem;">Rp 500.000</div>
             </div>
             <small class="text-muted">per malam</small>
           </div>
@@ -132,7 +132,7 @@
             <p class="text-muted mb-3">Kamar premium dengan view kota dan fasilitas lebih lengkap</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="text-muted">Mulai dari</span>
-              <div class="fw-bold" style="color: #667eea; font-size: 1.3rem;">Rp 750.000</div>
+              <div class="fw-bold" style="color: #e63946; font-size: 1.3rem;">Rp 750.000</div>
             </div>
             <small class="text-muted">per malam</small>
           </div>
@@ -151,7 +151,7 @@
             <p class="text-muted mb-3">Kamar luas dengan 2 tempat tidur dan ruang tamu</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="text-muted">Mulai dari</span>
-              <div class="fw-bold" style="color: #667eea; font-size: 1.3rem;">Rp 1.000.000</div>
+              <div class="fw-bold" style="color: #e63946; font-size: 1.3rem;">Rp 1.000.000</div>
             </div>
             <small class="text-muted">per malam</small>
           </div>
@@ -162,7 +162,7 @@
   </div>
 
   <!-- Nilai-nilai Kami -->
-  <div class="card border-0 shadow-lg mb-5" style="border-radius: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+  <div class="card border-0 shadow-lg mb-5" style="border-radius: 20px; background-color:#e63946; color: white;">
     <div class="card-body p-5">
       <h3 class="text-center fw-bold mb-5">Nilai-Nilai Kami</h3>
       <div class="row g-4 text-center">
@@ -226,9 +226,9 @@
 
   <!-- CTA -->
   <div class="text-center">
-    <h4 class="fw-bold mb-4" style="color: #667eea;">Siap Merasakan Pengalaman Menginap Terbaik?</h4>
+    <h4 class="fw-bold mb-4" style="color: #e63946;">Siap Merasakan Pengalaman Menginap Terbaik?</h4>
 
-    <a href="{{ route('pemesanan') }}" class="btn btn-primary btn-lg px-5 me-3" style="border-radius: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; font-weight: 600;">
+    <a href="{{ route('pemesanan') }}" class="btn btn-primary btn-lg px-5 me-3" style="border-radius: 50px; background-color:#e63946; border: none; font-weight: 600;">
       <i class="bi bi-calendar-check me-2"></i>Pesan Sekarang
     </a>
 

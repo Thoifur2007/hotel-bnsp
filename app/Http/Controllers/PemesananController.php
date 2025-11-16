@@ -49,17 +49,18 @@ class PemesananController extends Controller
         }
 
         // Simpan ke database
-        Pemesanan::create([
-            'nama_pemesan' => $request->nama_pemesan,
-            'jenis_kelamin' => $request->jenis_kelamin,
-            'nomor_identitas' => $request->nomor_identitas,
-            'tipe_kamar' => $request->tipe_kamar,
-            'harga' => $harga,
-            'tanggal_pesan' => $request->tanggal_pesan, // langsung simpan format Y-m-d
-            'durasi_menginap' => $request->durasi_menginap,
-            'termasuk_breakfast' => $request->has('termasuk_breakfast'),
-            'total_bayar' => $total,
-        ]);
+       Pemesanan::create([
+    'nama_pemesan' => $request->nama_pemesan,
+    'jenis_kelamin' => $request->jenis_kelamin,
+    'nomor_identitas' => $request->nomor_identitas,
+    'tipe_kamar' => $request->tipe_kamar,
+    'harga' => $harga,
+    'tanggal_pesan' => $request->tanggal_pesan,
+    'durasi_menginap' => $request->durasi_menginap,
+    'termasuk_breakfast' => $request->termasuk_breakfast,  // ← benar
+    'total_bayar' => $total,
+]);
+
 
         return redirect()->back()->with('success', 'Pemesanan berhasil disimpan!');
     }
