@@ -19,87 +19,106 @@
 
   <div class="row g-4 text-center">
 
+    <!-- Kolam Renang -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
           <div class="mb-3 fs-1 text-danger"><i class="bi bi-water"></i></div>
           <h5 class="card-title fw-bold mb-3">Kolam Renang</h5>
-          <p class="card-text text-muted">Kolam renang infinity dengan pemandangan kota yang menakjubkan, buka 24 jam</p>
+          <p class="card-text text-muted">
+            Kolam renang infinity dengan pemandangan kota yang menakjubkan, buka 24 jam
+          </p>
         </div>
       </div>
     </div>
 
+    <!-- Restoran Premium -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
-          <div class="mb-3 fs-1 text-danger"><i class="bi bi-egg-fry"></i></div>
+          <div class="mb-3 fs-1 text-danger"><i class="bi bi-cup-hot"></i></div>
           <h5 class="card-title fw-bold mb-3">Restoran Premium</h5>
-          <p class="card-text text-muted">Nikmati hidangan nusantara dan internasional dari chef berpengalaman</p>
+          <p class="card-text text-muted">
+            Nikmati hidangan nusantara dan internasional dari chef berpengalaman
+          </p>
         </div>
       </div>
     </div>
 
+    <!-- Spa & Wellness -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
           <div class="mb-3 fs-1 text-danger"><i class="bi bi-heart-pulse"></i></div>
           <h5 class="card-title fw-bold mb-3">Spa & Wellness</h5>
-          <p class="card-text text-muted">Relaksasi maksimal dengan treatment spa dan massage terbaik</p>
+          <p class="card-text text-muted">
+            Relaksasi maksimal dengan treatment spa dan massage terbaik
+          </p>
         </div>
       </div>
     </div>
 
+    <!-- Fitness Center -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
-          <div class="mb-3 fs-1 text-danger"><i class="bi bi-barbell"></i></div>
+          <div class="mb-3 fs-1 text-danger">
+            <i class="bi bi-universal-access-circle"></i>
+          </div>
           <h5 class="card-title fw-bold mb-3">Fitness Center</h5>
-          <p class="card-text text-muted">Gym modern dengan peralatan lengkap dan instruktur profesional</p>
+          <p class="card-text text-muted">
+            Gym modern dengan peralatan lengkap dan instruktur profesional
+          </p>
         </div>
       </div>
     </div>
 
+    <!-- Parkir Gratis -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
           <div class="mb-3 fs-1 text-danger"><i class="bi bi-p-square"></i></div>
           <h5 class="card-title fw-bold mb-3">Parkir Gratis</h5>
-          <p class="card-text text-muted">Area parkir luas dan aman untuk kendaraan Anda</p>
+          <p class="card-text text-muted">
+            Area parkir luas dan aman untuk kendaraan Anda
+          </p>
         </div>
       </div>
     </div>
 
+    <!-- WiFi Gratis -->
     <div class="col-md-4">
-      <div class="card h-100 border-0 shadow-sm" 
-           style="transition: transform 0.3s; border-radius: 15px;" 
-           onmouseover="this.style.transform='translateY(-10px)'" 
+      <div class="card h-100 border-0 shadow-sm"
+           style="transition: transform 0.3s; border-radius: 15px;"
+           onmouseover="this.style.transform='translateY(-10px)'"
            onmouseout="this.style.transform='translateY(0)'">
         <div class="card-body p-4">
           <div class="mb-3 fs-1 text-danger"><i class="bi bi-wifi"></i></div>
           <h5 class="card-title fw-bold mb-3">WiFi Gratis</h5>
-          <p class="card-text text-muted">Koneksi internet cepat di seluruh area hotel</p>
+          <p class="card-text text-muted">
+            Koneksi internet cepat di seluruh area hotel
+          </p>
         </div>
       </div>
     </div>
 
   </div>
 </div>
-
 <div class="container my-5">
   <div class="row align-items-center">
     <div class="col-md-6">
