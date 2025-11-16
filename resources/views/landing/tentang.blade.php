@@ -5,7 +5,7 @@
   <!-- Header Section -->
   <div class="text-center mb-5">
     <h2 class="display-4 fw-bold" style="color: #667eea;">
-      🏨 Tentang Hotel Serenity
+      Tentang Hotel Serenity
     </h2>
     <p class="lead text-muted">Pengalaman Menginap Terbaik Sejak 2010</p>
   </div>
@@ -28,8 +28,9 @@
         <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop" class="card-img" style="height: 400px; object-fit: cover;">
       </div>
     </div>
+
     <div class="col-lg-6">
-      <h3 class="fw-bold mb-4" style="color: #667eea;">📖 Kisah Kami</h3>
+      <h3 class="fw-bold mb-4" style="color: #667eea;">Kisah Kami</h3>
       <p class="text-muted mb-3" style="text-align: justify; line-height: 1.8;">
         Hotel Serenity berdiri sejak tahun 2010 dengan visi untuk menyediakan pengalaman menginap terbaik di kelasnya. Berlokasi strategis di pusat kota, kami menawarkan kombinasi sempurna antara kenyamanan modern dan pelayanan tradisional yang hangat.
       </p>
@@ -39,6 +40,7 @@
       <p class="text-muted mb-4" style="text-align: justify; line-height: 1.8;">
         Hotel Serenity dikenal dengan kenyamanan kamar, fasilitas lengkap, dan pelayanan prima yang membuat setiap tamu merasa seperti di rumah sendiri.
       </p>
+
       <div class="d-flex gap-3">
         <div class="text-center">
           <div class="fw-bold" style="font-size: 2rem; color: #667eea;">14+</div>
@@ -62,8 +64,8 @@
       <div class="card border-0 shadow-lg h-100" style="border-radius: 20px;">
         <div class="card-body p-5">
           <div class="text-center mb-4">
-            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
-              🎯
+            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+              Visi
             </div>
           </div>
           <h4 class="text-center fw-bold mb-4" style="color: #667eea;">Visi Kami</h4>
@@ -78,8 +80,8 @@
       <div class="card border-0 shadow-lg h-100" style="border-radius: 20px;">
         <div class="card-body p-5">
           <div class="text-center mb-4">
-            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
-              🚀
+            <div style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+              Misi
             </div>
           </div>
           <h4 class="text-center fw-bold mb-4" style="color: #f5576c;">Misi Kami</h4>
@@ -96,15 +98,17 @@
 
   <!-- Tipe Kamar -->
   <div class="mb-5">
-    <h3 class="text-center fw-bold mb-4" style="color: #667eea;">🛏️ Tipe Kamar Kami</h3>
+    <h3 class="text-center fw-bold mb-4" style="color: #667eea;">Tipe Kamar Kami</h3>
     <div class="row g-4">
+
+      <!-- Standar Room -->
       <div class="col-md-4">
         <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
           <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=250&fit=crop" class="card-img-top" style="height: 200px; object-fit: cover;">
           <div class="card-body p-4">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <h5 class="fw-bold mb-0">Standar Room</h5>
-              <span class="badge bg-success">🛏️</span>
+              <span class="badge bg-success">Std</span>
             </div>
             <p class="text-muted mb-3">Kamar nyaman dengan fasilitas standar untuk menginap yang menyenangkan</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -116,15 +120,16 @@
         </div>
       </div>
 
+      <!-- Deluxe Room -->
       <div class="col-md-4">
         <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
           <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=400&h=250&fit=crop" class="card-img-top" style="height: 200px; object-fit: cover;">
           <div class="card-body p-4">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <h5 class="fw-bold mb-0">Deluxe Room</h5>
-              <span class="badge bg-warning">⭐</span>
+              <span class="badge bg-warning">DLX</span>
             </div>
-            <p class="text-muted mb-3">Kamar premium dengan view kota dan fasilitas lebih lengkap untuk kenyamanan maksimal</p>
+            <p class="text-muted mb-3">Kamar premium dengan view kota dan fasilitas lebih lengkap</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="text-muted">Mulai dari</span>
               <div class="fw-bold" style="color: #667eea; font-size: 1.3rem;">Rp 750.000</div>
@@ -134,15 +139,16 @@
         </div>
       </div>
 
+      <!-- Family Room -->
       <div class="col-md-4">
         <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
           <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&h=250&fit=crop" class="card-img-top" style="height: 200px; object-fit: cover;">
           <div class="card-body p-4">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <h5 class="fw-bold mb-0">Family Room</h5>
-              <span class="badge bg-info">👨‍👩‍👧‍👦</span>
+              <span class="badge bg-info">FM</span>
             </div>
-            <p class="text-muted mb-3">Kamar luas untuk keluarga dengan 2 tempat tidur dan ruang tamu yang nyaman</p>
+            <p class="text-muted mb-3">Kamar luas dengan 2 tempat tidur dan ruang tamu</p>
             <div class="d-flex justify-content-between align-items-center">
               <span class="text-muted">Mulai dari</span>
               <div class="fw-bold" style="color: #667eea; font-size: 1.3rem;">Rp 1.000.000</div>
@@ -151,31 +157,28 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
   <!-- Nilai-nilai Kami -->
   <div class="card border-0 shadow-lg mb-5" style="border-radius: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
     <div class="card-body p-5">
-      <h3 class="text-center fw-bold mb-5">💎 Nilai-Nilai Kami</h3>
+      <h3 class="text-center fw-bold mb-5">Nilai-Nilai Kami</h3>
       <div class="row g-4 text-center">
         <div class="col-md-3">
-          <div style="font-size: 3rem; mb-3;">🤝</div>
           <h5 class="fw-bold mb-2">Integritas</h5>
           <p class="mb-0">Berkomitmen pada kejujuran dan transparansi</p>
         </div>
         <div class="col-md-3">
-          <div style="font-size: 3rem; mb-3;">⭐</div>
           <h5 class="fw-bold mb-2">Kualitas</h5>
           <p class="mb-0">Memberikan pelayanan terbaik setiap saat</p>
         </div>
         <div class="col-md-3">
-          <div style="font-size: 3rem; mb-3;">💖</div>
           <h5 class="fw-bold mb-2">Keramahan</h5>
           <p class="mb-0">Menyambut setiap tamu dengan hangat</p>
         </div>
         <div class="col-md-3">
-          <div style="font-size: 3rem; mb-3;">🌟</div>
           <h5 class="fw-bold mb-2">Inovasi</h5>
           <p class="mb-0">Terus berkembang dan berinovasi</p>
         </div>
@@ -188,16 +191,15 @@
     <div class="col-md-4">
       <div class="card border-0 shadow-sm text-center h-100" style="border-radius: 15px;">
         <div class="card-body p-4">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
           <h5 class="fw-bold mb-3">Lokasi</h5>
           <p class="text-muted">Jl. Raya Bogor No. 123<br>Bogor, Jawa Barat<br>Indonesia 16610</p>
         </div>
       </div>
     </div>
+
     <div class="col-md-4">
       <div class="card border-0 shadow-sm text-center h-100" style="border-radius: 15px;">
         <div class="card-body p-4">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">📞</div>
           <h5 class="fw-bold mb-3">Kontak</h5>
           <p class="text-muted">
             Telepon: (0251) 123-4567<br>
@@ -207,10 +209,10 @@
         </div>
       </div>
     </div>
+
     <div class="col-md-4">
       <div class="card border-0 shadow-sm text-center h-100" style="border-radius: 15px;">
         <div class="card-body p-4">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">⏰</div>
           <h5 class="fw-bold mb-3">Jam Operasional</h5>
           <p class="text-muted">
             Check-in: 14:00<br>
@@ -225,12 +227,15 @@
   <!-- CTA -->
   <div class="text-center">
     <h4 class="fw-bold mb-4" style="color: #667eea;">Siap Merasakan Pengalaman Menginap Terbaik?</h4>
+
     <a href="{{ route('pemesanan') }}" class="btn btn-primary btn-lg px-5 me-3" style="border-radius: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; font-weight: 600;">
       <i class="bi bi-calendar-check me-2"></i>Pesan Sekarang
     </a>
+
     <a href="{{ route('dashboard') }}" class="btn btn-outline-secondary btn-lg px-5" style="border-radius: 50px;">
       <i class="bi bi-house me-2"></i>Kembali ke Dashboard
     </a>
   </div>
+
 </div>
 @endsection

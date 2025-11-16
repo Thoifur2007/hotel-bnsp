@@ -3,21 +3,24 @@
 @section('content')
 <div class="container py-5">
   <div class="text-center mb-5">
-    <h2 class="display-4 fw-bold" style="color: #667eea;">
-      🎨 Galeri Hotel Serenity
+    <h2 class="display-4 fw-bold" style="color: #e63946;">
+      Galeri Hotel Serenity
     </h2>
     <p class="lead text-muted">Jelajahi keindahan dan kenyamanan fasilitas hotel kami</p>
   </div>
 
   <!-- Main Gallery Grid -->
   <div class="row g-4 mb-5">
+
     <!-- Kamar Hotel -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100" 
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500&h=300&fit=crop" 
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-danger px-3 py-2">🛏️ Kamar</span>
+            <span class="badge bg-danger px-3 py-2">Kamar</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -29,11 +32,13 @@
 
     <!-- Resort Area -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100"
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500&h=300&fit=crop"
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-success px-3 py-2">🏨 Resort</span>
+            <span class="badge bg-success px-3 py-2">Resort</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -45,11 +50,13 @@
 
     <!-- Kolam Renang -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100"
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=500&h=300&fit=crop"
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-info px-3 py-2">🏊 Pool</span>
+            <span class="badge bg-info px-3 py-2">Pool</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -61,11 +68,13 @@
 
     <!-- Restoran -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100"
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=300&fit=crop"
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-warning px-3 py-2">🍽️ Restoran</span>
+            <span class="badge bg-warning px-3 py-2">Restoran</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -77,11 +86,13 @@
 
     <!-- Lobby -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100"
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&h=300&fit=crop"
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-primary px-3 py-2">🏛️ Lobby</span>
+            <span class="badge bg-primary px-3 py-2">Lobby</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -93,11 +104,13 @@
 
     <!-- Spa -->
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div class="card border-0 shadow-lg h-100"
+        style="border-radius: 20px; overflow: hidden; transition: .3s;">
         <div style="position: relative; overflow: hidden; height: 300px;">
-          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500&h=300&fit=crop" class="w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500&h=300&fit=crop"
+            class="w-100 h-100" style="object-fit: cover; transition: .3s;">
           <div class="position-absolute top-0 start-0 m-3">
-            <span class="badge bg-secondary px-3 py-2">💆 Spa</span>
+            <span class="badge bg-secondary px-3 py-2">Spa</span>
           </div>
         </div>
         <div class="card-body p-4">
@@ -106,32 +119,37 @@
         </div>
       </div>
     </div>
+
   </div>
 
   <!-- Video Tour Section -->
-  <div class="card border-0 shadow-lg mb-5" style="border-radius: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+  <div class="card border-0 shadow-lg mb-5" 
+    style="border-radius: 20px; background: linear-gradient(135deg, #e63946 0%, #b30000 100%); color: white;">
     <div class="card-body p-5 text-center">
-      <h3 class="fw-bold mb-3">🎥 Virtual Tour</h3>
+      <h3 class="fw-bold mb-3">Virtual Tour</h3>
       <p class="mb-4">Jelajahi seluruh fasilitas hotel kami melalui virtual tour 360°</p>
       <button class="btn btn-light btn-lg px-5" style="border-radius: 50px; font-weight: 600;">
-        <i class="bi bi-play-circle me-2"></i>Mulai Virtual Tour
+        Mulai Virtual Tour
       </button>
     </div>
   </div>
 
   <!-- Testimonial Section -->
   <div class="mb-5">
-    <h3 class="text-center fw-bold mb-4" style="color: #667eea;">💬 Apa Kata Tamu Kami</h3>
+    <h3 class="text-center fw-bold mb-4" style="color: #e63946;">Apa Kata Tamu Kami</h3>
     <div class="row g-4">
+
+      <!-- Testimonial 1 -->
       <div class="col-md-4">
         <div class="card border-0 shadow-sm h-100" style="border-radius: 15px;">
           <div class="card-body p-4">
             <div class="d-flex mb-3">
               <span class="text-warning">⭐⭐⭐⭐⭐</span>
             </div>
-            <p class="card-text mb-3">"Pengalaman menginap yang luar biasa! Kamar sangat bersih dan pelayanan ramah. Pasti akan kembali lagi."</p>
+            <p class="card-text mb-3">"Pengalaman menginap yang luar biasa! Kamar sangat bersih dan pelayanan ramah."</p>
             <div class="d-flex align-items-center">
-              <div class="avatar me-3" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
+              <div class="avatar me-3" 
+                style="width: 50px; height: 50px; border-radius: 50%; background: #e63946; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
                 B
               </div>
               <div>
@@ -143,15 +161,17 @@
         </div>
       </div>
 
+      <!-- Testimonial 2 -->
       <div class="col-md-4">
         <div class="card border-0 shadow-sm h-100" style="border-radius: 15px;">
           <div class="card-body p-4">
             <div class="d-flex mb-3">
               <span class="text-warning">⭐⭐⭐⭐⭐</span>
             </div>
-            <p class="card-text mb-3">"Kolam renangnya amazing! View dari kamar juga sangat bagus. Recommended banget untuk liburan keluarga."</p>
+            <p class="card-text mb-3">"Kolam renangnya amazing! View dari kamar juga sangat bagus."</p>
             <div class="d-flex align-items-center">
-              <div class="avatar me-3" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
+              <div class="avatar me-3" 
+                style="width: 50px; height: 50px; border-radius: 50%; background: #b30000; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
                 S
               </div>
               <div>
@@ -163,15 +183,17 @@
         </div>
       </div>
 
+      <!-- Testimonial 3 -->
       <div class="col-md-4">
         <div class="card border-0 shadow-sm h-100" style="border-radius: 15px;">
           <div class="card-body p-4">
             <div class="d-flex mb-3">
               <span class="text-warning">⭐⭐⭐⭐⭐</span>
             </div>
-            <p class="card-text mb-3">"Spa-nya top! Setelah perjalanan jauh, bisa relax di sini. Breakfast buffet juga variatif dan enak."</p>
+            <p class="card-text mb-3">"Spa-nya top! Breakfast buffet juga variatif dan enak."</p>
             <div class="d-flex align-items-center">
-              <div class="avatar me-3" style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
+              <div class="avatar me-3" 
+                style="width: 50px; height: 50px; border-radius: 50%; background: #ff6b6b; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem;">
                 A
               </div>
               <div>
@@ -182,16 +204,18 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
   <!-- CTA Section -->
   <div class="text-center">
-    <a href="{{ route('pemesanan') }}" class="btn btn-primary btn-lg px-5 me-3" style="border-radius: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; font-weight: 600;">
-      <i class="bi bi-calendar-check me-2"></i>Pesan Sekarang
+    <a href="{{ route('pemesanan') }}" class="btn btn-primary btn-lg px-5 me-3"
+      style="border-radius: 50px; background: #e63946; border: none; font-weight: 600;">
+      Pesan Sekarang
     </a>
     <a href="{{ route('dashboard') }}" class="btn btn-outline-secondary btn-lg px-5" style="border-radius: 50px;">
-      <i class="bi bi-house me-2"></i>Kembali ke Dashboard
+      Kembali ke Dashboard
     </a>
   </div>
 </div>
